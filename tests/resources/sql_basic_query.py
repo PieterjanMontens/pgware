@@ -1,0 +1,1 @@
+QUERY = 'SELECT 1'

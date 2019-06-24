@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"psycopg2-binary" = "*"
+asyncpg = "*"
+py-dateutil = "*"
+pdoc = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-asyncio = "*"
+numpy = "*"
+pytest-cov = "*"
+flake8 = {editable = true,ref = "master",git = "https://github.com/PyCQA/flake8.git"}
+isort = "*"
+setuphelpers = "*"
+pylint = "*"
+twine = "*"
+coverage = "*"
+aioconsole = "*"
+behave = "*"
+
+[requires]
+python_version = "3.7"
